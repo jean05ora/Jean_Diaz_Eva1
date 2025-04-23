@@ -1,16 +1,57 @@
+*{
+    font-size: 25px;
+}
+.inacap{
+    margin: 0;
+    display: grid;
+    place-items: right;
+    height: 200px;
+    width: 1000px;
+}
 h1{
     margin: 0;
     display: grid;
     place-items: center;
     color: blue;
     font-style: italic;
+    font-size: 50px;
+    border-style: dashed;
+    border-color: chocolate;
 }
 .portada{
     color:  violet;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     list-style: none;
+    margin: 0;
+    display: grid;
+    place-items: center;
 }
 .subtitulo_2{
     color: darkgreen;
-    background-image: url(Requisitos-para-estudiar-en-Inacap.jpg);
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.descripcion_1{
+    color: blueviolet;
+}
+.anonymous{
+    background-color: green;
+    margin: 0;
+    display: grid;
+    place-items: center;
+}
+.lista1{
+    color: darkcyan;
+    font-size: 31px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.lista2{
+    color: deepskyblue;
+    font-size: 31px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.lista3{
+    color: mediumblue;
+    font-size: 31px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
