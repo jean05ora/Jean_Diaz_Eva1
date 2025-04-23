@@ -1,6 +1,8 @@
 *{
     font-size: 25px;
 }
+/* Generalizando el tamaño de la fuente en toda la pagina a 25 pixeles */
+/* Posicionando la imagen del logo de inacap en el lado izquierdo */
 .inacap{
     margin: 0;
     display: grid;
@@ -28,18 +30,20 @@ h1{
 }
 .subtitulo_2{
     color: darkgreen;
-    font-size: 25px;
+    font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 }
 .descripcion_1{
     color: blueviolet;
 }
 .anonymous{
     background-color: green;
-    margin: 0;
-    display: grid;
-    place-items: center;
+    align-items: center;
+    height: 500px;
+    width: 1000px;
 }
+/* Dandole colores a las listas, tamaños de fuentes y tipos de fuentes */
 .lista1{
     color: darkcyan;
     font-size: 31px;
@@ -54,4 +58,35 @@ h1{
     color: mediumblue;
     font-size: 31px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.subtitulo_3{
+    color: indigo;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 41px;
+}
+.hackers{
+    height: 250px;
+    width: 650px;
+}
+.lista4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+    font-size: 31px;
+}
+.lista5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifks;
+    color: black;
+    font-size: 31px;
+    text-shadow: 1px;
+}
+.lista6{
+    color: magenta;
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifks;
+}
+.lista7{
+    color: cornflowerblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifks;
+    font-size: 32px;
 }
